@@ -16,43 +16,65 @@ This system records conversations, identifies speakers, transcribes speech, anal
   - DuckDuckGo web search fallback
 - **Interactive Web UI**: Gradio-based chat interface with emotion badges and fact citations
 
+## Live Demo
+
+**Try it now:** [http://54.209.249.85:7863/](http://54.209.249.85:7863/)
+
+> **Note:** Most recorded conversations have been deleted to reduce AWS storage costs. A sample conversation from our class demo is preserved and viewable at argument ID: `20251205_151855`
+
 ## System Architecture
 
+```mermaid
+flowchart TB
+    subgraph PI["Raspberry Pi (Edge)"]
+        MIC[/"USB Mic"/] --> DIARIZE["pyannote\nDiarization"]
+        DIARIZE --> WHISPER["Whisper\nSTT"]
+        WHISPER --> HTTP["HTTP POST"]
+    end
+
+    subgraph AWS["AWS EC2 (Cloud)"]
+        FASTAPI["FastAPI\nReceiver"] --> EMOTION["Emotion\nClassifier"]
+        EMOTION --> FACTCHECK["Fact\nChecker"]
+        FACTCHECK --> STORAGE[("JSON\nStorage")]
+
+        FACTCHECK --> RAG["RAG\nKnowledge Base"]
+        FACTCHECK --> POLY["Polymarket\nAPI"]
+        FACTCHECK --> WEB["Web\nSearch"]
+    end
+
+    subgraph BROWSER["Browser (Client)"]
+        UI["Gradio Web UI\n• Chat bubbles\n• Emotion badges\n• Fact panels"]
+    end
+
+    HTTP -->|"audio + transcript"| FASTAPI
+    STORAGE --> UI
+
+    style PI fill:#c8e6c9,stroke:#2e7d32
+    style AWS fill:#fff3e0,stroke:#ef6c00
+    style BROWSER fill:#e3f2fd,stroke:#1565c0
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                         RASPBERRY PI (Edge)                         │
-│  ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐     │
-│  │   USB    │───>│ pyannote │───>│  Whisper │───>│   HTTP   │     │
-│  │   Mic    │    │ Diarize  │    │   STT    │    │   POST   │     │
-│  └──────────┘    └──────────┘    └──────────┘    └────┬─────┘     │
-└───────────────────────────────────────────────────────┼─────────────┘
-                                                        │
-                                                        v
-┌─────────────────────────────────────────────────────────────────────┐
-│                         AWS EC2 (Cloud)                             │
-│  ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐     │
-│  │ FastAPI  │───>│ Emotion  │───>│   Fact   │───>│  Storage │     │
-│  │ Receive  │    │ Classify │    │  Checker │    │   JSON   │     │
-│  └──────────┘    └──────────┘    └────┬─────┘    └──────────┘     │
-│                                       │                             │
-│                    ┌──────────────────┼──────────────────┐         │
-│                    v                  v                  v         │
-│              ┌──────────┐      ┌──────────┐      ┌──────────┐     │
-│              │   RAG    │      │Polymarket│      │   Web    │     │
-│              │    KB    │      │   API    │      │  Search  │     │
-│              └──────────┘      └──────────┘      └──────────┘     │
-└─────────────────────────────────────────────────────────────────────┘
-                                                        │
-                                                        v
-┌─────────────────────────────────────────────────────────────────────┐
-│                         BROWSER (Client)                            │
-│  ┌──────────────────────────────────────────────────────────────┐  │
-│  │              Gradio Web UI (port 7863)                        │  │
-│  │   - Chat bubbles with speaker colors                          │  │
-│  │   - Emotion badges per segment                                │  │
-│  │   - Hover panels with fact-check results                      │  │
-│  └──────────────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────────┘
+
+### Data Flow
+
+```mermaid
+sequenceDiagram
+    participant Pi as Raspberry Pi
+    participant AWS as AWS EC2
+    participant Sources as Fact Sources
+    participant UI as Web UI
+
+    Pi->>Pi: Record 30s audio
+    Pi->>Pi: Speaker diarization
+    Pi->>Pi: Transcribe (Whisper)
+    Pi->>AWS: POST audio + transcript
+
+    AWS->>AWS: Emotion classification
+    AWS->>Sources: Query in parallel
+    Sources-->>AWS: RAG + Polymarket + Web
+    AWS->>AWS: Store to JSON
+
+    UI->>AWS: Request arguments
+    AWS-->>UI: Return with analysis
 ```
 
 ## Project Structure
