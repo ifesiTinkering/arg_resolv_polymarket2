@@ -1,0 +1,349 @@
+{
+  "facts": [
+    {
+      "text": "A 2020 Stanford study found that remote workers were 13% more productive than their office counterparts, primarily due to fewer breaks and sick days.",
+      "source": "Stanford WFH Study 2020",
+      "url": "https://nbloom.people.stanford.edu/sites/g/files/sbiybj4746/f/wfh.pdf",
+      "stance": "supporting",
+      "category": "remote_work"
+    },
+    {
+      "text": "Microsoft's 2021 Work Trend Index found that 54% of employees felt overworked and 39% felt exhausted when working remotely.",
+      "source": "Microsoft Work Trend Index 2021",
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index",
+      "stance": "contradicting",
+      "category": "remote_work"
+    },
+    {
+      "text": "The IPCC's Sixth Assessment Report (2021) concluded with 95% confidence that human activities are the primary cause of global warming since the 1950s.",
+      "source": "IPCC AR6 Report",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/",
+      "stance": "supporting",
+      "category": "climate_change"
+    },
+    {
+      "text": "Global CO2 emissions reached a record high of 36.8 billion metric tons in 2022, with fossil fuel combustion accounting for over 75% of total emissions.",
+      "source": "IEA Global Energy Review 2023",
+      "url": "https://www.iea.org/reports/global-energy-review-2023",
+      "stance": "supporting",
+      "category": "climate_change"
+    },
+    {
+      "text": "Electric vehicles produce 50-70% fewer lifecycle emissions than gasoline cars, even when accounting for battery production and electricity generation.",
+      "source": "MIT Climate Portal",
+      "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars",
+      "stance": "supporting",
+      "category": "electric_vehicles"
+    },
+    {
+      "text": "A 2023 study found that AI systems like GPT-4 can pass the bar exam with a score in the 90th percentile, compared to GPT-3.5's 10th percentile.",
+      "source": "OpenAI Technical Report 2023",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "stance": "supporting",
+      "category": "ai_capabilities"
+    },
+    {
+      "text": "The US federal minimum wage has been $7.25 per hour since 2009, representing a 29% decrease in purchasing power due to inflation.",
+      "source": "Economic Policy Institute",
+      "url": "https://www.epi.org/publication/minimum-wage-depreciation-2023/",
+      "stance": "supporting",
+      "category": "minimum_wage"
+    },
+    {
+      "text": "A 2022 CBO report estimated that raising the federal minimum wage to $15 by 2025 would lift 900,000 people out of poverty but eliminate 1.4 million jobs.",
+      "source": "Congressional Budget Office 2022",
+      "url": "https://www.cbo.gov/publication/55681",
+      "stance": "contradicting",
+      "category": "minimum_wage"
+    },
+    {
+      "text": "Nuclear energy generates electricity with near-zero carbon emissions and has the lowest death rate per unit of energy produced among all major energy sources.",
+      "source": "Our World in Data",
+      "url": "https://ourworldindata.org/safest-sources-of-energy",
+      "stance": "supporting",
+      "category": "nuclear_energy"
+    },
+    {
+      "text": "The average construction cost of new nuclear power plants in the US is $6,000-9,000 per kilowatt, significantly higher than solar ($1,000/kW) or wind ($1,300/kW).",
+      "source": "Lazard's Levelized Cost of Energy 2023",
+      "url": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus/",
+      "stance": "contradicting",
+      "category": "nuclear_energy"
+    },
+    {
+      "text": "In 2022, renewable energy sources (solar, wind, hydro) accounted for 29% of global electricity generation, up from 19% in 2011.",
+      "source": "International Energy Agency",
+      "url": "https://www.iea.org/reports/renewable-energy-market-update-2023",
+      "stance": "supporting",
+      "category": "renewable_energy"
+    },
+    {
+      "text": "The average American spends 51 minutes per day driving, with commuters in major cities spending up to 2 hours daily in their vehicles.",
+      "source": "US Bureau of Transportation Statistics",
+      "url": "https://www.bts.gov/statistical-products/surveys/american-time-use-survey",
+      "stance": "supporting",
+      "category": "transportation"
+    },
+    {
+      "text": "Public transportation produces 76% less greenhouse gas emissions per passenger mile than private vehicles, according to APTA.",
+      "source": "American Public Transportation Association",
+      "url": "https://www.apta.com/research-technical-resources/public-transportation-benefits/",
+      "stance": "supporting",
+      "category": "transportation"
+    },
+    {
+      "text": "New York City has the lowest vehicle ownership rate among major US cities, with only 45% of households owning a car.",
+      "source": "US Census Bureau 2020",
+      "url": "https://www.census.gov/library/publications/2021/acs/acs-48.html",
+      "stance": "supporting",
+      "category": "nyc_transportation"
+    },
+    {
+      "text": "The median rent for a one-bedroom apartment in Manhattan was $4,175 in 2023, making it the most expensive rental market in the United States.",
+      "source": "Zillow Rent Index 2023",
+      "url": "https://www.zillow.com/research/data/",
+      "stance": "supporting",
+      "category": "nyc_housing"
+    },
+    {
+      "text": "Studies show that intermittent fasting can improve insulin sensitivity, reduce inflammation, and may extend lifespan in animal models.",
+      "source": "New England Journal of Medicine 2019",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1905136",
+      "stance": "supporting",
+      "category": "health_nutrition"
+    },
+    {
+      "text": "The human brain uses approximately 20% of the body's total energy despite representing only 2% of body weight.",
+      "source": "Nature Reviews Neuroscience",
+      "url": "https://www.nature.com/articles/nrn.2016.72",
+      "stance": "supporting",
+      "category": "neuroscience"
+    },
+    {
+      "text": "According to Nielsen, the average American watches 3 hours and 10 minutes of television per day, with adults 65+ watching over 4 hours daily.",
+      "source": "Nielsen Total Audience Report 2023",
+      "url": "https://www.nielsen.com/insights/2023/total-audience-report/",
+      "stance": "supporting",
+      "category": "media_consumption"
+    },
+    {
+      "text": "A 2022 meta-analysis found that meditation practice can reduce anxiety by 60% and depression by 53% on average.",
+      "source": "JAMA Psychiatry 2022",
+      "url": "https://jamanetwork.com/journals/jamapsychiatry",
+      "stance": "supporting",
+      "category": "mental_health"
+    },
+    {
+      "text": "The global cryptocurrency market capitalization peaked at $2.9 trillion in November 2021 before falling to around $1.1 trillion by late 2022.",
+      "source": "CoinMarketCap",
+      "url": "https://coinmarketcap.com/charts/",
+      "stance": "supporting",
+      "category": "cryptocurrency"
+    },
+    {
+      "text": "Bitcoin mining consumes approximately 150 terawatt-hours of electricity annually, comparable to the entire country of Argentina.",
+      "source": "Cambridge Bitcoin Electricity Consumption Index",
+      "url": "https://ccaf.io/cbeci",
+      "stance": "contradicting",
+      "category": "cryptocurrency"
+    },
+    {
+      "text": "The S&P 500 has historically returned an average of 10% per year since its inception in 1926, adjusted for inflation the average is around 7%.",
+      "source": "Investopedia Historical Returns Analysis",
+      "url": "https://www.investopedia.com/ask/answers/042415/what-average-annual-return-sp-500.asp",
+      "stance": "supporting",
+      "category": "investing"
+    },
+    {
+      "text": "Studies show that 80-90% of active fund managers fail to beat their benchmark index over a 10-year period after accounting for fees.",
+      "source": "SPIVA Scorecard 2023",
+      "url": "https://www.spglobal.com/spdji/en/research-insights/spiva/",
+      "stance": "supporting",
+      "category": "investing"
+    },
+    {
+      "text": "According to UNESCO, 773 million adults worldwide lack basic literacy skills, with two-thirds being women.",
+      "source": "UNESCO Institute for Statistics",
+      "url": "http://uis.unesco.org/en/topic/literacy",
+      "stance": "supporting",
+      "category": "education"
+    },
+    {
+      "text": "The average student loan debt for US college graduates in 2023 was $37,787, with total student debt exceeding $1.7 trillion.",
+      "source": "Federal Reserve Bank of New York",
+      "url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "stance": "supporting",
+      "category": "education"
+    }
+  ],
+  "polymarket_markets": [
+    {
+      "text": "2024 F1 Drivers' Championship prediction market tracking which driver will win the Formula 1 championship",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/f1-drivers-champion?tid=1764941469149",
+      "market_id": "f1-drivers-champion",
+      "category": "sports_f1",
+      "keywords": ["f1", "formula 1", "formula one", "drivers championship", "verstappen", "hamilton", "racing"]
+    },
+    {
+      "text": "2024 US Presidential Election prediction market for determining the next US President",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/presidential-election-winner-2024",
+      "market_id": "presidential-election-2024",
+      "category": "politics_us",
+      "keywords": ["trump", "biden", "president", "election", "2024 election", "presidential", "republican", "democrat"]
+    },
+    {
+      "text": "Will AI pass the Turing Test by 2025? Prediction market on artificial intelligence capabilities",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/will-ai-pass-turing-test-2025",
+      "market_id": "ai-turing-test-2025",
+      "category": "technology_ai",
+      "keywords": ["ai", "artificial intelligence", "turing test", "gpt", "chatgpt", "llm", "machine learning"]
+    },
+    {
+      "text": "Bitcoin price predictions: Will BTC reach $100,000 in 2024?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/bitcoin-100k-2024",
+      "market_id": "bitcoin-100k-2024",
+      "category": "crypto_bitcoin",
+      "keywords": ["bitcoin", "btc", "cryptocurrency", "crypto", "price", "100k", "bull market"]
+    },
+    {
+      "text": "Climate change: Will global temperatures exceed 1.5°C by 2030?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/global-temp-15c-2030",
+      "market_id": "climate-15c-2030",
+      "category": "climate",
+      "keywords": ["climate change", "global warming", "temperature", "paris agreement", "ipcc", "1.5 degrees"]
+    },
+    {
+      "text": "Will Elon Musk step down as Tesla CEO by 2025?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/elon-musk-tesla-ceo-2025",
+      "market_id": "musk-tesla-ceo-2025",
+      "category": "business_tech",
+      "keywords": ["elon musk", "tesla", "ceo", "twitter", "x", "spacex", "leadership"]
+    },
+    {
+      "text": "Will there be a recession in the US in 2024?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/us-recession-2024",
+      "market_id": "us-recession-2024",
+      "category": "economics",
+      "keywords": ["recession", "economy", "gdp", "economic downturn", "inflation", "federal reserve", "interest rates"]
+    },
+    {
+      "text": "Portugal Presidential Election 2025 - Prediction market for next President of Portugal",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/portugal-presidential-election?tid=1764942961110",
+      "market_id": "portugal-presidential-election",
+      "category": "politics_europe",
+      "keywords": ["portugal", "presidential election", "europe", "election 2025", "portuguese politics"]
+    },
+    {
+      "text": "TIME 2025 Person of the Year - Who will be named TIME Person of the Year for 2025?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/time-2025-person-of-the-year?tid=1764942977512",
+      "market_id": "time-person-of-year-2025",
+      "category": "culture_awards",
+      "keywords": ["time magazine", "person of the year", "award", "influential", "2025"]
+    },
+    {
+      "text": "Will Taylor Swift and Travis Kelce get engaged in 2024-2025?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/taylor-swift-travis-kelce-engagement",
+      "market_id": "swift-kelce-engagement",
+      "category": "culture_celebrity",
+      "keywords": ["taylor swift", "travis kelce", "engagement", "celebrity", "nfl", "pop culture", "relationship"]
+    },
+    {
+      "text": "2024 Academy Awards Best Picture prediction market",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/oscars-best-picture-2024",
+      "market_id": "oscars-best-picture-2024",
+      "category": "culture_entertainment",
+      "keywords": ["oscars", "academy awards", "best picture", "movies", "film", "hollywood", "awards"]
+    },
+    {
+      "text": "Will GTA 6 release in 2025? Grand Theft Auto VI release date predictions",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/gta-6-release-2025",
+      "market_id": "gta-6-release-2025",
+      "category": "culture_gaming",
+      "keywords": ["gta 6", "grand theft auto", "rockstar games", "video games", "gaming", "release date", "2025"]
+    },
+    {
+      "text": "2024 NBA Championship winner prediction market",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/nba-championship-2024",
+      "market_id": "nba-championship-2024",
+      "category": "sports_basketball",
+      "keywords": ["nba", "basketball", "championship", "finals", "playoffs", "celtics", "lakers", "warriors"]
+    },
+    {
+      "text": "Will Drake release a new album in 2024-2025?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/drake-album-2024",
+      "market_id": "drake-album-2024",
+      "category": "culture_music",
+      "keywords": ["drake", "music", "album", "hip hop", "rap", "release", "new music"]
+    },
+    {
+      "text": "UEFA Champions League 2024-2025 winner prediction market",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/champions-league-2025",
+      "market_id": "champions-league-2025",
+      "category": "sports_soccer",
+      "keywords": ["champions league", "uefa", "soccer", "football", "real madrid", "barcelona", "manchester city", "bayern"]
+    },
+    {
+      "text": "Will Dune Part 3 be announced by 2025?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/dune-part-3-announcement",
+      "market_id": "dune-part-3",
+      "category": "culture_movies",
+      "keywords": ["dune", "dune part 3", "denis villeneuve", "movies", "sci-fi", "sequel", "announcement"]
+    },
+    {
+      "text": "2024 Super Bowl winner prediction market",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/super-bowl-2024",
+      "market_id": "super-bowl-2024",
+      "category": "sports_nfl",
+      "keywords": ["super bowl", "nfl", "football", "chiefs", "49ers", "eagles", "ravens", "championship"]
+    },
+    {
+      "text": "Will Kanye West release new music in 2024-2025?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/kanye-west-new-music-2024",
+      "market_id": "kanye-new-music-2024",
+      "category": "culture_music",
+      "keywords": ["kanye west", "ye", "music", "album", "hip hop", "release", "new music"]
+    },
+    {
+      "text": "Will Apple release Vision Pro 2 in 2025?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/apple-vision-pro-2-2025",
+      "market_id": "vision-pro-2-2025",
+      "category": "technology_apple",
+      "keywords": ["apple", "vision pro", "vr", "ar", "headset", "mixed reality", "release", "2025"]
+    },
+    {
+      "text": "Grammy Awards 2025 - Album of the Year prediction market",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/grammys-album-of-year-2025",
+      "market_id": "grammys-aoty-2025",
+      "category": "culture_music",
+      "keywords": ["grammys", "album of the year", "music awards", "recording academy", "2025"]
+    },
+    {
+      "text": "Will Marvel announce Avengers 5 release date in 2024?",
+      "source": "Polymarket",
+      "url": "https://polymarket.com/event/avengers-5-announcement-2024",
+      "market_id": "avengers-5-2024",
+      "category": "culture_movies",
+      "keywords": ["avengers", "marvel", "mcu", "avengers 5", "movies", "announcement", "superhero"]
+    }
+  ]
+}

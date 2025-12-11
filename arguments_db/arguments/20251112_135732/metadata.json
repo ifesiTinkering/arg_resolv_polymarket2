@@ -1,0 +1,22 @@
+{
+  "id": "20251112_135732",
+  "timestamp": "2025-11-12T13:57:32.316121",
+  "duration_seconds": 29.96721875,
+  "num_speakers": 2,
+  "speakers": {
+    "SPEAKER_00": {
+      "transcript": "I think most people in New York like dogs. I don't know because I like dogs and I'm a future new worker and to I'm assuming everyone else in New York probably really really likes dogs. I'm not really sure. Thank you. Bye.",
+      "word_count": 43
+    },
+    "SPEAKER_01": {
+      "transcript": "Well, I think most people in New York like cats. Why do you think most people in New York like dogs? . like you have a good point, do you think, any day or something?",
+      "word_count": 35
+    }
+  },
+  "verdict": {
+    "winner": "TIE",
+    "confidence": 75,
+    "reasoning": "## VERDICT: TIE\n## CONFIDENCE: 75%\n\n## ANALYSIS:\nBoth speakers made claims regarding the pet preferences of New Yorkers, but the evidence supports both positions to varying degrees. \n\n**Speaker 1** claimed that \"most people in New York like dogs.\" The evidence suggests that dogs are indeed popular in New York, with around 50% of households owning pets and dogs being the most common choice. This indicates a substantial fondness for dogs in the city.\n\n**Speaker 2** asserted that \"most people in New York like cats.\" The evidence indicates that cats also have a significant presence, with statistics suggesting approximately 25% of households owning cats. Their suitability for urban living and lower maintenance needs make them appealing to city residents, which aligns with many people's preferences.\n\nNeither speaker presented definitive evidence to claim that most people prefer one pet over the other, leading to a conclusion that while both niches (dogs and cats) are cherished, neither speaker can claim absolute superiority based on the provided data.\n\n## EVIDENCE SUMMARY:\n1. **Speaker 1**:\n   - Surveys indicate that dogs are one of the most popular pets in NYC.\n   - NYC has a vibrant dog culture with many parks and pet-friendly amenities.\n\n2. **Speaker 2**:\n   - About 25% of NYC households own cats, with many residents appreciating their independence.\n   - Cats' adaptability to smaller living spaces makes them particularly suited for urban environments. \n\nBoth speakers provided valid points based on the content of their claims, hence the tie verdict."
+  },
+  "full_verdict_text": "## VERDICT: TIE\n## CONFIDENCE: 75%\n\n## ANALYSIS:\nBoth speakers made claims regarding the pet preferences of New Yorkers, but the evidence supports both positions to varying degrees. \n\n**Speaker 1** claimed that \"most people in New York like dogs.\" The evidence suggests that dogs are indeed popular in New York, with around 50% of households owning pets and dogs being the most common choice. This indicates a substantial fondness for dogs in the city.\n\n**Speaker 2** asserted that \"most people in New York like cats.\" The evidence indicates that cats also have a significant presence, with statistics suggesting approximately 25% of households owning cats. Their suitability for urban living and lower maintenance needs make them appealing to city residents, which aligns with many people's preferences.\n\nNeither speaker presented definitive evidence to claim that most people prefer one pet over the other, leading to a conclusion that while both niches (dogs and cats) are cherished, neither speaker can claim absolute superiority based on the provided data.\n\n## EVIDENCE SUMMARY:\n1. **Speaker 1**:\n   - Surveys indicate that dogs are one of the most popular pets in NYC.\n   - NYC has a vibrant dog culture with many parks and pet-friendly amenities.\n\n2. **Speaker 2**:\n   - About 25% of NYC households own cats, with many residents appreciating their independence.\n   - Cats' adaptability to smaller living spaces makes them particularly suited for urban environments. \n\nBoth speakers provided valid points based on the content of their claims, hence the tie verdict."
+}

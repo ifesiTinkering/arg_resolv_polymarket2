@@ -1,0 +1,23 @@
+{
+  "id": "20251119_154206",
+  "title": "Driving Habits in New York: A Debate on Transportation",
+  "timestamp": "2025-11-19T15:42:06.630678",
+  "duration_seconds": 29.96721875,
+  "num_speakers": 2,
+  "speakers": {
+    "SPEAKER_00": {
+      "transcript": "day two. It's only 10 seconds.",
+      "word_count": 6
+    },
+    "SPEAKER_01": {
+      "transcript": "Welcome. Do you think people in New York drive more or they to step away more? I think it takes up way. I think people in New York drive more. You can just stop. No stop. Just keep talking. I keep talking. I just... I don't know. Why do you think people took this up way more? Because it has perfect issue all the time.",
+      "word_count": 65
+    }
+  },
+  "verdict": {
+    "winner": "Speaker 2",
+    "confidence": 85,
+    "reasoning": "## VERDICT: Speaker 2\n## CONFIDENCE: 85%\n\n## ANALYSIS:\n**Speaker 1's Claim:**\n- **\"Day two lasts only 10 seconds.\"** This claim is inaccurate. A day is conventionally understood to last 24 hours, based on the Earth's rotation. There is no scientific basis for claiming a day can be only 10 seconds unless in a specific, fictional context that was not mentioned.\n\n**Speaker 2's Claims:**\n- **\"People in New York drive more than they walk.\"** This claim is generally accurate. Evidence from the NYC Department of Transportation indicates that a higher percentage of New Yorkers commute by car compared to those who walk. Specifically, about 30% commute by car versus 13% who walk. Additionally, vehicle ownership stats align with this trend.\n  \n- **\"There is a perfect issue that people are always dealing with.\"** This claim is vague and not specific enough to be fact-checked with certainty. However, Speaker 2 could be referencing general societal issues like stress, mental health, or other common challenges, which are indeed pervasive. While this statement lacks precision, it's supported by widespread acknowledgment of various societal issues.\n\nOverall, Speaker 2's claims are backed by data and align with established trends, making them more correct than Speaker 1, whose claim is inaccurate based on widely accepted definitions of time.\n\n## EVIDENCE SUMMARY:\n1. **Speaker 1's Claim:**\n   - No scientific basis for a \"day\" lasting only 10 seconds; days last 24 hours.\n   \n2. **Speaker 2's Claim (driving vs. walking):**\n   - NYC data shows 30% of New Yorkers drive, compared to 13% who walk.\n   - 44% of NYC households own a vehicle.\n\n3. **Speaker 2's Claim (perfect issue):**\n   - General acknowledgment of widespread issues like mental health, stress, etc., aligns with common societal discussions, though lacks detail."
+  },
+  "full_verdict_text": "## VERDICT: Speaker 2\n## CONFIDENCE: 85%\n\n## ANALYSIS:\n**Speaker 1's Claim:**\n- **\"Day two lasts only 10 seconds.\"** This claim is inaccurate. A day is conventionally understood to last 24 hours, based on the Earth's rotation. There is no scientific basis for claiming a day can be only 10 seconds unless in a specific, fictional context that was not mentioned.\n\n**Speaker 2's Claims:**\n- **\"People in New York drive more than they walk.\"** This claim is generally accurate. Evidence from the NYC Department of Transportation indicates that a higher percentage of New Yorkers commute by car compared to those who walk. Specifically, about 30% commute by car versus 13% who walk. Additionally, vehicle ownership stats align with this trend.\n  \n- **\"There is a perfect issue that people are always dealing with.\"** This claim is vague and not specific enough to be fact-checked with certainty. However, Speaker 2 could be referencing general societal issues like stress, mental health, or other common challenges, which are indeed pervasive. While this statement lacks precision, it's supported by widespread acknowledgment of various societal issues.\n\nOverall, Speaker 2's claims are backed by data and align with established trends, making them more correct than Speaker 1, whose claim is inaccurate based on widely accepted definitions of time.\n\n## EVIDENCE SUMMARY:\n1. **Speaker 1's Claim:**\n   - No scientific basis for a \"day\" lasting only 10 seconds; days last 24 hours.\n   \n2. **Speaker 2's Claim (driving vs. walking):**\n   - NYC data shows 30% of New Yorkers drive, compared to 13% who walk.\n   - 44% of NYC households own a vehicle.\n\n3. **Speaker 2's Claim (perfect issue):**\n   - General acknowledgment of widespread issues like mental health, stress, etc., aligns with common societal discussions, though lacks detail."
+}

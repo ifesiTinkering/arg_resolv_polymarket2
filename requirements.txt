@@ -1,0 +1,53 @@
+# Argument Resolver System - Python Dependencies
+# Tested and working versions as of 2025-12-02
+
+# Core ML Libraries
+torch==2.9.0
+torchaudio==2.9.0
+numpy==2.3.4
+
+# Audio Processing & Speaker Diarization
+pyannote-audio==4.0.1
+pyannote-core==6.0.1
+pyannote-database==6.1.0
+pyannote-metrics==4.0.0
+pyannote-pipeline==4.0.0
+pyannoteai-sdk==0.3.0
+openai-whisper==20250625
+
+# ML Training & Metrics
+pytorch-lightning==2.5.5
+pytorch-metric-learning==2.9.0
+torchmetrics==1.8.2
+torch-audiomentations==0.12.0
+torch_pitch_shift==1.2.5
+
+# SpeechBrain (needed by pyannote.audio)
+# IMPORTANT: Version 1.0+ incompatible with torchaudio 2.9.x
+speechbrain==0.5.16
+
+# Model Storage & Loading
+huggingface-hub==1.0.1
+safetensors==0.6.2
+
+# Telemetry (required by pyannote.audio 4.x)
+opentelemetry-api==1.38.0
+opentelemetry-sdk==1.38.0
+opentelemetry-exporter-otlp==1.38.0
+opentelemetry-exporter-otlp-proto-common==1.38.0
+opentelemetry-exporter-otlp-proto-grpc==1.38.0
+opentelemetry-exporter-otlp-proto-http==1.38.0
+opentelemetry-proto==1.38.0
+opentelemetry-semantic-conventions==0.59b0
+
+# Web Framework & API
+fastapi==0.120.2
+fastapi_poe==0.0.74
+uvicorn==0.38.0
+requests==2.32.3
+
+# Configuration
+python-dotenv==1.1.0
+
+# Optional - Video support (not required for audio-only)
+# torchcodec==0.8.1

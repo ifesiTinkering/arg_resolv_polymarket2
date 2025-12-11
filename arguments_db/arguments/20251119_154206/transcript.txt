@@ -1,0 +1,6 @@
+[4.0s] SPEAKER_00: day two.
+[12.1s] SPEAKER_00: It's only 10 seconds.
+[0.0s] SPEAKER_01: Welcome.
+[0.9s] SPEAKER_01: Do you think people in New York drive more or they to step away more?
+[6.3s] SPEAKER_01: I think it takes up way. I think people in New York drive more.
+[15.1s] SPEAKER_01: You can just stop. No stop. Just keep talking. I keep talking. I just... I don't know. Why do you think people took this up way more? Because it has perfect issue all the time.

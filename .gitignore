@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+received_audio/*.wav
+arguments_db/arguments/*/audio.wav
+*.log
+
+# Keep directory structure but ignore audio files
+!received_audio/.gitkeep
+!arguments_db/.gitkeep
+
+# API Keys (if you store them in separate files)
+.env
+secrets.json
+argument-resolver-key.pem
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+
+# Screenshots (large files)
+Screenshot*.png
+
+# AI Assistant folders
+.claude/
+
+# Project website (separate repo)
+project_website/
+
+# Training data (regenerate as needed)
+training_data/
+test_data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.bak

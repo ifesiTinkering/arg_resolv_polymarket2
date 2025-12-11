@@ -1,0 +1,40 @@
+[
+  {
+    "id": "20251204_132845",
+    "timestamp": "2025-12-04T13:28:45.842386",
+    "title": "Argument 20251204_132845",
+    "num_speakers": 2
+  },
+  {
+    "id": "20251204_095541",
+    "timestamp": "2025-12-04T09:55:41.775877",
+    "title": "Argument 20251204_095541",
+    "num_speakers": 2
+  },
+  {
+    "id": "20251202_114111",
+    "timestamp": "2025-12-02T11:41:11.810480",
+    "title": "Argument 20251202_114111",
+    "num_speakers": 2
+  },
+  {
+    "id": "20251202_092706",
+    "title": "Debate Over New York City's Support for Cuomo",
+    "timestamp": "2025-12-02T09:27:06.114639",
+    "winner": "Speaker 2",
+    "num_speakers": 2
+  },
+  {
+    "id": "20251119_154206",
+    "title": "Driving Habits in New York: A Debate on Transportation",
+    "timestamp": "2025-11-19T15:42:06.630678",
+    "winner": "Speaker 2",
+    "num_speakers": 2
+  },
+  {
+    "id": "20251112_135732",
+    "timestamp": "2025-11-12T13:57:32.316121",
+    "winner": "TIE",
+    "num_speakers": 2
+  }
+]

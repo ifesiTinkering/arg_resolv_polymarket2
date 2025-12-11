@@ -1,0 +1,8 @@
+[2.7s] SPEAKER_00: I think most people in New York like dogs.
+[13.3s] SPEAKER_00: I don't know because I like dogs and I'm a future new worker and to I'm assuming everyone else in New York probably really really likes dogs.
+[23.4s] SPEAKER_00: I'm not really sure.
+[26.5s] SPEAKER_00: Thank you.
+[29.8s] SPEAKER_00: Bye.
+[6.0s] SPEAKER_01: Well, I think most people in New York like cats. Why do you think most people in New York like dogs?
+[26.4s] SPEAKER_01: .
+[26.6s] SPEAKER_01: like you have a good point, do you think, any day or something?
